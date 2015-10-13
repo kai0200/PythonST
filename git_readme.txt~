@@ -27,9 +27,3 @@ git checkout 1.0.0    #下载指定tag 版本
 
 https://github.com/vim-scripts/Python-mode-klen#id3
 
-
-git remote rm origin 
-git remote add origin git@github.com:kai0200/PythonST.git
-git origin 
-git push origin 
-
