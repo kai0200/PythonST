@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+project_opened	01_text/.ropeproject/config.py	/^def project_opened(project):$/;"	f
+results	01_text/1_1_one_character.py	/^results = [c for c in thestring]$/;"	v
+set_prefs	01_text/.ropeproject/config.py	/^def set_prefs(prefs):$/;"	f
+the_list	01_text/1_1_one_character.py	/^the_list = list(thestring)$/;"	v
+thestring	01_text/1_1_one_character.py	/^thestring = "abcdefg"$/;"	v

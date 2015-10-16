@@ -33,3 +33,7 @@ git remote add origin git@github.com:kai0200/PythonST.git
 git origin 
 git push origin 
 
+
+再需要在用户git hub上修改 Settings -> 添加 Deploy Keys
+
+

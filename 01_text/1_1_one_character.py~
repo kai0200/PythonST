@@ -1,10 +1,5 @@
-#!/usr/bin/env python
-# encoding=utf8
-
 
 import sys
-
-# 拆分字符串爲單個字符，拆分字符串为单个字符
 
 thestring = "abcdefg"
 
@@ -18,10 +13,6 @@ for c in thestring:
 
 # Way 3
 results = [c for c in thestring]
-
-print results.append('3')
 print results
 
-# Way 4
-results = map(ord, thestring)
-print results
+print results.count()
