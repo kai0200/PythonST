@@ -28,4 +28,3 @@ def getmembers(klass, members=None):
 print getmembers(A)
 print getmembers(B)
 print getmembers(IOError)
-
