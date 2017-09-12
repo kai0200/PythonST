@@ -15,7 +15,8 @@ git push -u origin master
 #2017-01-19 将HTML文档转化为文本显示在UNIX终端上
 001-html-to-term.py
 
-# Python3 标准模块尝试
+# Python3 标准模块尝试    https://pymotw.com/3/string/index.html
 ## Text
 ### string - Text Constants and Templates
 Time: 2017-09-12
+
