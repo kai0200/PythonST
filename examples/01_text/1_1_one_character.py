@@ -3,6 +3,7 @@
 
 
 import sys
+import random
 
 # 拆分字符串爲單個字符，拆分字符串为单个字符
 
