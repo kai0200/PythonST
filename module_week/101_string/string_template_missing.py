@@ -1,3 +1,4 @@
+# encoding: utf-8
 # string_template_missing.py
 
 import string
