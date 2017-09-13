@@ -1,8 +1,8 @@
-git add . 
+git add .
 git commit -m "first upload"
 git push -u origin master
 
-#ssh-keygen -t rsa 
+#ssh-keygen -t rsa
 
 
 git  clone /path/to/repository
@@ -13,8 +13,8 @@ git clone  git@code.sohuno.com:calerwang/mailindex_backup.git
 git add *
 git commit -m
 git commit -m "ff"
-git push origin master 
-git 
+git push origin master
+git
 git config --global user.email "calerwang@sohu-inc.com"
 git config --global user.name "Caler Wang"
 
@@ -28,10 +28,10 @@ git checkout 1.0.0    #下载指定tag 版本
 https://github.com/vim-scripts/Python-mode-klen#id3
 
 
-git remote rm origin 
+git remote rm origin
 git remote add origin git@github.com:kai0200/PythonST.git
-git origin 
-git push origin 
+git origin
+git push origin
 
 
 再需要在用户git hub上修改 Settings -> 添加 Deploy Keys
