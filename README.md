@@ -48,12 +48,13 @@ sudo fc-cache -fv （建立字体缓存信息，也就是让系统认识雅黑�
 终端字体调节大小  ```Ctrl  -``` ```Ctrl  +``
 
 ### K-vim 管理插件的命令
-
+```
 :PlugInstall     install                      安装插件
 :PlugUpdate      install or update            更新插件
 :PlugClean       remove plugin not in list    删除本地无用插件
 :PlugUpgrade     Upgrade vim-plug itself      升级本身
 :PlugStatus      Check the status of plugins  查看插件状态
+```
 
 更新以后要重新编译YouCompleteMe
 
@@ -85,6 +86,21 @@ Python vim tab 快捷键
 实现相同字段排量修改
 
 ```,gd``  跳到声明位置, 仅 filetypes: c, cpp, objc, objcpp, python 有效
+
+### k-vim 快捷键
+
+```C-w-L```  vim 分屏以后从s 转到v
+```C-w-K```  vim 分屏以后从v 转到s
+```z-M```    all折行操作
+```z-R```    all折行操作
+```z-c```    单独折行操作
+```z-o```    单独折行操作
+
+### k-vim  git 同步最新版
+
+git reset --hard
+git pull
+
 
 
 
