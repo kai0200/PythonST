@@ -34,15 +34,57 @@ https://github.com/amix/vimrc
 
 ### 增加终端字体   FSEX300.ttf
 ---
+```
 https://my.oschina.net/itblog/blog/278566
 sudo mkdir -p /usr/share/fonts/winFonts
-sudo cp ~/Desktop/font/*.ttf /usr/share/fonts/winFonts/
+sudo cp ~/Desktop/font/*.ttf  /usr/share/fonts/winFonts/
 sudo chmod 644 /usr/share/fonts/winFonts/*.ttf
 cd /usr/share/fonts/winFonts/
 sudo mkfontscale （创建雅黑字体的fonts.scale文件，它用来控制字体旋转缩放）
 sudo mkfontdir （创建雅黑字体的fonts.dir文件，它用来控制字体粗斜体产生）
 sudo fc-cache -fv （建立字体缓存信息，也就是让系统认识雅黑）
+```
 
 终端字体调节大小  ```Ctrl  -``` ```Ctrl  +``
+
+### K-vim 管理插件的命令
+
+:PlugInstall     install                      安装插件
+:PlugUpdate      install or update            更新插件
+:PlugClean       remove plugin not in list    删除本地无用插件
+:PlugUpgrade     Upgrade vim-plug itself      升级本身
+:PlugStatus      Check the status of plugins  查看插件状态
+
+更新以后要重新编译YouCompleteMe
+
+```
+# /tmp/b.sh
+echo "Step4: compile YouCompleteMe"
+echo "It will take a long time, just be patient!"
+echo "If error,you need to compile it yourself"
+echo "cd $CURRENT_DIR/bundle/YouCompleteMe/ && python install.py --clang-completer"
+cd $CURRENT_DIR/bundle/YouCompleteMe/
+git submodule update --init --recursive
+if [ `which clang` ]   # check system clang
+then
+    python install.py --clang-completer --system-libclang   # use system clang
+else
+    python install.py --clang-completer
+fi
+```
+
+snippets  插件
+Python vim tab 快捷键
+~/.vim/bundle/vim-snippets/snippets/python.snippets
+
+### 多行选择
+===
+
+``` Ctrl + m```
+
+实现相同字段排量修改
+
+```,gd``  跳到声明位置, 仅 filetypes: c, cpp, objc, objcpp, python 有效
+
 
 
