@@ -23,3 +23,25 @@ Time: 2017-09-12
 ###  问题
 
 如何在""" """ 里添加注释
+
+
+### Ubunto16.04 美化
+---
+https://segmentfault.com/a/1190000006111345
+https://github.com/anmoljagetia/Flatabulous
+https://github.com/robbyrussell/oh-my-zsh
+https://github.com/amix/vimrc
+
+### 增加终端字体   FSEX300.ttf
+---
+https://my.oschina.net/itblog/blog/278566
+sudo mkdir -p /usr/share/fonts/winFonts
+sudo cp ~/Desktop/font/*.ttf /usr/share/fonts/winFonts/
+sudo chmod 644 /usr/share/fonts/winFonts/*.ttf
+cd /usr/share/fonts/winFonts/
+sudo mkfontscale （创建雅黑字体的fonts.scale文件，它用来控制字体旋转缩放）
+sudo mkfontdir （创建雅黑字体的fonts.dir文件，它用来控制字体粗斜体产生）
+sudo fc-cache -fv （建立字体缓存信息，也就是让系统认识雅黑）
+
+终端字体调节大小  ```Ctrl  -``` ```Ctrl  +``
+
