@@ -1,6 +1,10 @@
-# encoding: utf-8
-# textwrap_dedent.py
-
+# -*- coding: utf-8 -*-
+"""
+@Author: Calerwang
+@Email:  calerwang@sohu-inc.com
+@Date:   2017-09-13
+@Desc:   测试dedent
+"""
 # dedent 取消缩进
 
 import textwrap
