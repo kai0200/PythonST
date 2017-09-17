@@ -19,7 +19,7 @@ def test_patterns(text, patterns):
             e = match.end()
             substr = text[s:e]
             n_backslashes = text[:s].count('\\')
-            prefix = '.' * (s - n_backslashes)
+            prefix = '.' * (s - n_backslashes + 1)
             print("{}'{}'".format(prefix, substr))
         print()
     return
