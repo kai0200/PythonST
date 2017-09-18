@@ -95,11 +95,15 @@ Python vim tab 快捷键
 ```z-R```    all折行操作
 ```z-c```    单独折行操作
 ```z-o```    单独折行操作
+```zz```     把编辑视窗放到屏幕中间
 
 ### k-vim  git 同步最新版
 
 git reset --hard
 git pull
+
+### module_week/ex_data_structures/collections
+集合相关程序学习
 
 
 
